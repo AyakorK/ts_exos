@@ -25,13 +25,10 @@ const generateTestObj = (n: number) => {
 
 describe('sortByDate', () => {
   it('should sort the array by date in ascending order', () => {
-    // Arrange
     const testObj: Obj = generateTestObj(10); // Generate test data with 10 items
 
-    // Act
     const sorted: Subject[] = sortByDate(testObj);
 
-    // Assert
     // Check that the sorted array is in ascending order by date
     for (let i = 0; i < sorted.length - 1; i++) {
       expect(new Date(sorted[i].created_at as string).getTime())
