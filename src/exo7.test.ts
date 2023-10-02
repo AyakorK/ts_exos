@@ -1,4 +1,4 @@
-import { Queue } from './exo7'; // Remplacez par le chemin correct de votre fichier
+import { Queue } from './exo7';
 
 describe('Queue', () => {
   test('should enqueue and dequeue elements', () => {

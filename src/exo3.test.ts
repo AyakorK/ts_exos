@@ -7,7 +7,7 @@ import {
   returnBorrowedBook,
   Library,
   Book,
-} from './exo3'; // Adjust the import path as needed
+} from './exo3';
 
 describe('Library Functions', () => {
   let library: Library;

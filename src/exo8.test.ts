@@ -1,5 +1,4 @@
-import { AddressBook, Contact } from './exo8'; // Remplacez par le chemin correct de votre fichier
-
+import { AddressBook, Contact } from './exo8';
 describe('AddressBook', () => {
   let addressBook: AddressBook;
 

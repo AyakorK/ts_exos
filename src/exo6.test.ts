@@ -1,4 +1,4 @@
-import { Dog, Cat, Parrot } from './exo6'; // Remplacez par le chemin correct de votre fichier
+import { Dog, Cat, Parrot } from './exo6';
 
 describe('Dog', () => {
   test('should return "Woof!" when speaking', () => {
