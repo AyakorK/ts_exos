@@ -7,7 +7,7 @@ export class Dog implements Pet {
   constructor(public name: string, public age: number) {}
 
   speak(): string {
-    return 'Woof!';
+    return 'Woof !';
   }
 }
 
@@ -15,7 +15,7 @@ export class Cat implements Pet {
   constructor(public name: string, public age: number) {}
 
   speak(): string {
-    return 'Meow!';
+    return 'Meow !';
   }
 }
 export class Parrot implements Pet {
