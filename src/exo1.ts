@@ -1,4 +1,3 @@
-
 import axios from 'axios'
 
 export function getUserSummary(id: number) {
