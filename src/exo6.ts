@@ -1,4 +1,3 @@
-// Interface Pet
 interface Pet {
     name: string;
     age: number;
